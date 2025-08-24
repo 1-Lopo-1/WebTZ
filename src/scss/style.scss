@@ -1,0 +1,74 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// for body
+$mainBG: rgb(94, 94, 94);
+$plPr: 5%;
+$pt: 5%;
+
+// for p teg
+$textSizeP: 18px;
+
+// for h2 teg
+$textSizeH2: 32px;
+
+// text color
+$mainColorText: #dfdfdf;
+
+// input and button bg
+$bgInputButton: #595c59;
+
+body {
+  background-color: $mainBG;
+  padding-left: $plPr;
+  padding-right: $plPr;
+  padding-top: $pt;
+  color: white;
+}
+
+p, input, button {
+  font-size: $textSizeP;
+  color: $mainColorText;
+}
+
+
+input, button {
+  background-color: $bgInputButton;
+}
+
+
+h2 {
+  font-size: $textSizeH2;
+}
+
+.bg-input {
+  background-color: $bgInputButton;
+  font-size: $textSizeP;
+}
+
+.sub-add-news {
+  width: 75%;
+  color: white;
+  border-color: black;
+}
+
+.bg-my-card {
+  background-color: $bgInputButton;
+  border-color: black;
+  border-width: 2px;
+}
+
+.input-control {
+  fill: none;
+  background: transparent;
+  border: none;
+  width: 100%;
+}
+
+.input-control:focus, .input-control:active {
+  fill: none;
+  background: transparent;
+}
+
+input[type="submit"] {
+  white-space: normal;
+}

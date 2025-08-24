@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Главная страница
+RewriteRule ^$ src/index.php [L]
+
+# Страница добавления новости
+RewriteRule ^add-news$ src/addNews.php [L] 
